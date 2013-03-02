@@ -1,5 +1,5 @@
 # Check for target product
-ifeq (pac_gio,$(TARGET_PRODUCT))
+ifeq (pac_tass,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_mdpi
@@ -13,14 +13,14 @@ $(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-ma
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/bootlogo/pac_logo_320x480.rle:root/GIO.rle
+    vendor/pac/prebuilt/common/bootlogo/pac_logo_320x480.rle:root/TASS.rle
 
 # include ParanoidAndroid common configuration
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
-$(call inherit-product, device/samsung/gio/cm.mk)
+$(call inherit-product, device/samsung/tass/cm.mk)
 
-PRODUCT_NAME := pac_gio
+PRODUCT_NAME := pac_tass
 
 endif
