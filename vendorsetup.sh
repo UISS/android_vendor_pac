@@ -17,6 +17,10 @@ add_lunch_combo pac_p1-userdebug
 # Samsung 2012
 add_lunch_combo pac_hercules-userdebug
 add_lunch_combo pac_skyrocket-userdebug
+add_lunch_combo pac_p5100-userdebug
+add_lunch_combo pac_p5110-userdebug
+add_lunch_combo pac_p3100-userdebug
+add_lunch_combo pac_p3110-userdebug
 # Nexus Devices
 add_lunch_combo pac_mako-userdebug
 add_lunch_combo pac_maguro-userdebug
@@ -38,6 +42,7 @@ add_lunch_combo pac_d2vzw-userdebug
 add_lunch_combo pac_i605-userdebug
 add_lunch_combo pac_l900-userdebug
 add_lunch_combo pac_t0lte-userdebug
+add_lunch_combo pac_n7100-userdebug
 # Samsung & LGE Legacy Devices
 add_lunch_combo pac_gio-userdebug
 add_lunch_combo pac_cooper-userdebug
