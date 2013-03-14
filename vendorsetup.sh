@@ -30,6 +30,8 @@ add_lunch_combo pac_vigor-userdebug
 add_lunch_combo pac_shooter-userdebug
 add_lunch_combo pac_shootervm-userdebug
 add_lunch_combo pac_shooteru-userdebug
+# HTC 2011
+add_lunch_combo pac_saga-userdebug
 # HTC 2013
 add_lunch_combo pac_jewel-userdebug
 add_lunch_combo pac_evita-userdebug
@@ -50,6 +52,7 @@ add_lunch_combo pac_p500-userdebug
 add_lunch_combo pac_tass-userdebug
 add_lunch_combo pac_p990-userdebug
 add_lunch_combo pac_p920-userdebug
+add_lunch_combo pac_p970-userdebug
 # HTC One V
 add_lunch_combo pac_primoc-userdebug
 add_lunch_combo pac_primou-userdebug
