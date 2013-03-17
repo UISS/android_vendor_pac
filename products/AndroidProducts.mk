@@ -1,3 +1,6 @@
+ifeq (pac_ace,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_ace.mk
+endif
 ifeq (pac_anzu,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_anzu.mk
 endif
@@ -138,4 +141,7 @@ ifeq (pac_saga,$(TARGET_PRODUCT))
 endif
 ifeq (pac_p970,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_p970.mk
+endif
+ifeq (pac_crespo,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_crespo.mk
 endif

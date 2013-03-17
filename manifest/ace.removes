@@ -1,15 +1,15 @@
 [
     {
+        "name":     "CyanogenMod/android_bionic",
+        "path":     "bionic"
+    },
+	{
         "name":     "PAC-man/android_packages_apps_Camera",
         "path":     "packages/apps/Camera"
     },
     {
         "name":     "PAC-man/android_packages_apps_Gallery2",
         "path":     "packages/apps/Gallery2"
-    },
-	{
-        "name":     "CyanogenMod/android_packages_apps_DeskClock",
-        "path":     "packages/apps/DeskClock"
     },
     {
         "name":     "CyanogenMod/android_frameworks_av",
@@ -24,8 +24,12 @@
         "path":     "device/common"
     },
 	{
-        "name":     "CyanogenMod/android_hardware_libhardware",
-        "path":     "hardware/libhardware"
+        "name":     "CyanogenMod/android_hardware_msm7k",
+        "path":     "hardware/msm7k"
+    },
+	{
+        "name":     "CyanogenMod/android_hardware_ril",
+        "path":     "hardware/ril"
     },
 	{
         "name":     "CyanogenMod/android_hardware_qcom_audio",
@@ -38,5 +42,9 @@
 	{
         "name":     "CyanogenMod/android_hardware_qcom_media",
         "path":     "hardware/qcom/media"
+    },
+	{
+        "name":     "platform/prebuilts/misc",
+        "path":     "prebuilts/misc"
     }
 ]

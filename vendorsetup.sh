@@ -24,6 +24,7 @@ add_lunch_combo pac_p3110-userdebug
 # Nexus Devices
 add_lunch_combo pac_mako-userdebug
 add_lunch_combo pac_maguro-userdebug
+add_lunch_combo pac_crespo-userdebug
 # HTC Rezound
 add_lunch_combo pac_vigor-userdebug
 # HTC Shooter
@@ -31,6 +32,7 @@ add_lunch_combo pac_shooter-userdebug
 add_lunch_combo pac_shootervm-userdebug
 add_lunch_combo pac_shooteru-userdebug
 # HTC 2011
+add_lunch_combo pac_ace-userdebug
 add_lunch_combo pac_saga-userdebug
 # HTC 2013
 add_lunch_combo pac_jewel-userdebug
